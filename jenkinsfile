@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git credentialsId: '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', url: 'https://github.com/Ripudaman55/Jenkins-6.2C.git'
+            }
+        }
+    }
+}
