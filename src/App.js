@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Simple To-Do App-- Ripudaman Thind</h1>
+      <h1>Simple To-Do App-- Ripudaman Thind ------ </h1>
 
       <div className="add-task-container">
         <input
